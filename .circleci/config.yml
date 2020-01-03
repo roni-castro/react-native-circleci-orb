@@ -19,6 +19,9 @@ jobs:
       - persist_to_workspace:
           root: .
           paths: .
+      - run:
+          name: "What branch am I on now?"
+          command: echo $CIRCLE_BRANCH 
   publish:
     docker:
       - image: circleci/node:8
@@ -55,11 +58,11 @@ workflows:
   btd:
     jobs:
       - pack
-
+    
       - orb-tools/publish:
           orb-path: packed-orb.yml
-          orb-ref: "react-native-community/react-native@dev:${CIRCLE_BRANCH}"
-          publish-token-variable: CIRCLECI_API_TOKEN
+          orb-ref: "react-native-circleci-orb/react-native-circleci-orb@dev:${CIRCLE_BRANCH}"
+          publish-token-variable: $CIRCLECI_API_TOKEN
           attach-workspace: true
           checkout: false
           requires: [pack]
