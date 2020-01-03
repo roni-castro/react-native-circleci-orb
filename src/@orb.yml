@@ -1,4 +1,5 @@
 version: 2.1
 description: |
-  Orb for building and testing React Native projects. View
-  this orb's source: https://github.com/react-native-community/react-native-circleci-orb
+ Warning!! This is a testing Orb forked from https://github.com/react-native-community/react-native-circleci-orb. 
+ Please do not use it in your project.
+  this orb's source: https://github.com/roni-castro/react-native-circleci-orb
