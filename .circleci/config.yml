@@ -19,9 +19,7 @@ jobs:
       - persist_to_workspace:
           root: .
           paths: .
-      - run:
-          name: "What branch am I on now?"
-          command: echo $CIRCLE_BRANCH 
+          
   publish:
     docker:
       - image: circleci/node:8
