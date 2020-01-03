@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/roni-castro/react-native-circleci-orb/compare/v1.3.0...v1.3.1) (2020-01-03)
+
+
+### Bug Fixes
+
+* Update releaserc and Readme links ([586463e](https://github.com/roni-castro/react-native-circleci-orb/commit/586463e))
+
 # [1.3.0](https://github.com/react-native-community/react-native-circleci-orb/compare/v1.2.1...v1.3.0) (2019-11-20)
 
 
