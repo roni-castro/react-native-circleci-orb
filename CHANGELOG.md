@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/roni-castro/react-native-circleci-orb/compare/v2.0.0...v2.1.0) (2020-01-16)
+
+
+### Features
+
+* Update node to version 12 ([7bfd28f](https://github.com/roni-castro/react-native-circleci-orb/commit/7bfd28f))
+
 # [2.0.0](https://github.com/roni-castro/react-native-circleci-orb/compare/v1.4.4...v2.0.0) (2020-01-16)
 
 
