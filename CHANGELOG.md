@@ -1,3 +1,24 @@
+# [2.0.0](https://github.com/roni-castro/react-native-circleci-orb/compare/v1.4.4...v2.0.0) (2020-01-16)
+
+
+### Bug Fixes
+
+* Removed the unused `build_threads` parameter in the `linux_android` executor ([97720b9](https://github.com/roni-castro/react-native-circleci-orb/commit/97720b9)), closes [#19](https://github.com/roni-castro/react-native-circleci-orb/issues/19)
+
+
+### Features
+
+* Add `on_after_initialize` parameter to the jobs ([#26](https://github.com/roni-castro/react-native-circleci-orb/issues/26) by [@compojoom](https://github.com/compojoom)) ([0ff6621](https://github.com/roni-castro/react-native-circleci-orb/commit/0ff6621))
+* Add a `bundle` command ([#8](https://github.com/roni-castro/react-native-circleci-orb/issues/8) by [@sunilchalla](https://github.com/sunilchalla)) ([464d661](https://github.com/roni-castro/react-native-circleci-orb/commit/464d661))
+* Added the `--frozen-lockfile` flag to the `yarn_install` command ([e4676c4](https://github.com/roni-castro/react-native-circleci-orb/commit/e4676c4)), closes [#28](https://github.com/roni-castro/react-native-circleci-orb/issues/28)
+* Update node version to the latest and add parameters ([073689c](https://github.com/roni-castro/react-native-circleci-orb/commit/073689c))
+* **ios:** Added an `ios_build` job ([#30](https://github.com/roni-castro/react-native-circleci-orb/issues/30) by [@roni-castro](https://github.com/roni-castro)) ([b607782](https://github.com/roni-castro/react-native-circleci-orb/commit/b607782))
+
+
+### BREAKING CHANGES
+
+* The `yarn_install` command will now fail if there need to be changes made to your `yarn.lock` file. See [the Yarn documentation](https://yarnpkg.com/en/docs/cli/install#toc-yarn-install-frozen-lockfile) for details on this flag.
+
 ## [1.4.4](https://github.com/roni-castro/react-native-circleci-orb/compare/v1.4.3...v1.4.4) (2020-01-03)
 
 
