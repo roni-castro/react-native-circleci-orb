@@ -24,7 +24,7 @@ Firstly, as this is a 3rd Party Orb, you need to go into your organisations sett
 You will also need to ensure that you have a MacOS plan enabled if you want to build and test your iOS app, or if you want to test your Android app. Open Source projects can contact CircleCI to ask them to enable it and private projects need to select a payment plan.
 
 ## Documentation
-[You can read the full documentation here](https://circleci.com/orbs/registry/orb/react-native-circleci-orb/react-native-circleci-orb).
+[You can read the full documentation here](https://circleci.com/orbs/registry/orb/roni-castro/react-native-circleci-orb).
 
 ## Android
 

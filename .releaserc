@@ -12,7 +12,7 @@
     [
       "semantic-release-circleci-orb",
       {
-        "orbName": "react-native-circleci-orb/react-native-circleci-orb",
+        "orbName": "roni-castro/react-native-circleci-orb",
         "orbPath": "packed-orb.yml"
       }
     ],
