@@ -1,3 +1,10 @@
+## [2.3.2](https://github.com/roni-castro/react-native-circleci-orb/compare/v2.3.1...v2.3.2) (2020-02-01)
+
+
+### Bug Fixes
+
+* Allow update brew ([0afdb3c](https://github.com/roni-castro/react-native-circleci-orb/commit/0afdb3c))
+
 ## [2.3.1](https://github.com/roni-castro/react-native-circleci-orb/compare/v2.3.0...v2.3.1) (2020-01-31)
 
 
