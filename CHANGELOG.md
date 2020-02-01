@@ -1,3 +1,10 @@
+## [2.3.4](https://github.com/roni-castro/react-native-circleci-orb/compare/v2.3.3...v2.3.4) (2020-02-01)
+
+
+### Bug Fixes
+
+* install nvm before node ([96fdd9a](https://github.com/roni-castro/react-native-circleci-orb/commit/96fdd9a))
+
 ## [2.3.3](https://github.com/roni-castro/react-native-circleci-orb/compare/v2.3.2...v2.3.3) (2020-02-01)
 
 
