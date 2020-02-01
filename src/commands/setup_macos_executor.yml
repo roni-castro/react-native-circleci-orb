@@ -23,6 +23,11 @@ steps:
         brew-cache-{{ arch }}-{{ .Environment.CACHE_VERSION }}
   
   - run:
+      name: Install nvm
+      command: |
+        HOMEBREW_NO_AUTO_UPDATE=1 brew install nvm >/dev/null
+
+  - run:
       name: Install node@<<parameters.node_version>>
       command: |
         set +e             
