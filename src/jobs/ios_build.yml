@@ -1,7 +1,5 @@
 description: Builds the iOS app at the given path with the given build scheme
 
-executor: macos
-
 parameters:
   # For this job
   checkout:
@@ -53,6 +51,13 @@ parameters:
     description: The version of Node to use. This can be either a major version ("8"), a major and minor ("8.4"), or a fully qualified version ("8.4.1").
     type: string
     default: '10'
+  xcode_version:
+    description: xcode_version
+    type: string
+    default: '11.0.0'
+
+macos:
+  xcode: <<parameters.xcode_version>>
 
 steps:
   - when:
