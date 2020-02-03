@@ -1,3 +1,10 @@
+## [2.3.6](https://github.com/roni-castro/react-native-circleci-orb/compare/v2.3.5...v2.3.6) (2020-02-03)
+
+
+### Bug Fixes
+
+* add brew unlink again ([4d70899](https://github.com/roni-castro/react-native-circleci-orb/commit/4d70899))
+
 ## [2.3.5](https://github.com/roni-castro/react-native-circleci-orb/compare/v2.3.4...v2.3.5) (2020-02-03)
 
 
