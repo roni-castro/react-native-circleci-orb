@@ -1,3 +1,10 @@
+## [2.3.5](https://github.com/roni-castro/react-native-circleci-orb/compare/v2.3.4...v2.3.5) (2020-02-03)
+
+
+### Bug Fixes
+
+* allow to pass different xcode version to macos executor ([48dcbcc](https://github.com/roni-castro/react-native-circleci-orb/commit/48dcbcc))
+
 ## [2.3.4](https://github.com/roni-castro/react-native-circleci-orb/compare/v2.3.3...v2.3.4) (2020-02-01)
 
 
